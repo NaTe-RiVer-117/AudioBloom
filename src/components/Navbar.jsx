@@ -24,7 +24,7 @@ const Navbar = ({ data, toggleFavorites, showFavorites }) => {
           strokeWidth={1.5}
           stroke="lime"
           className="w-5 h-5 mr-2"
-         >
+        >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -35,7 +35,7 @@ const Navbar = ({ data, toggleFavorites, showFavorites }) => {
           {showFavorites ? "Show All" : "Favorites"}
         </h3>
         <div className="ml-2 w-5 h-5 rounded-full bg-black text-lime-100 flex items-center justify-center text-xs font-bold">
-        {showFavorites ? totalCount : favCount}
+          {showFavorites ? totalCount : favCount}
         </div>
       </div>
     </div>

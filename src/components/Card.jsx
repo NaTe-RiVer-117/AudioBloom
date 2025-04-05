@@ -13,7 +13,9 @@ const Card = ({ data, handleAddToFav }) => {
       {/* Song Details */}
       <div className="text-center">
         <h3 className="text-white font-bold text-lg line-clamp-2">{name}</h3>
-        <h6 className="text-gray-400 text-sm font-semibold line-clamp-2">{artist}</h6>
+        <h6 className="text-gray-400 text-sm font-semibold line-clamp-2">
+          {artist}
+        </h6>
       </div>
 
       {/* Add to Favorites Button */}
